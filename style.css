@@ -30,7 +30,41 @@ nav a:hover {
     border-radius: 15px;
     box-shadow: 0 5px 15px #ccc;
 }
+@media (max-width: 600px) {
 
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    .btn {
+        display: block;
+        margin: 15px auto;
+        width: 70%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
 h1 {
     color: #0f172a;
 }
