@@ -77,3 +77,10 @@ li {
 .btn:hover {
     background: #1d4ed8;
 }
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
