@@ -12,8 +12,27 @@ if (form) {
 
     const data = new FormData(form);
 
-    const response = await fetch(form.action, {
-        method: "POST",
+    try {
+
+const response = await fetch(form.action, {
+    method: "POST",
+    body: data,
+    headers:{
+        "Accept":"application/json"
+    }
+});
+
+if(response.ok){
+    alert("✅ Message Sent Successfully!");
+    form.reset();
+}else{
+    alert("❌ Message failed.");
+}
+
+}
+catch(error){
+    alert("❌ Network error. Try again.");
+}        method: "POST",
         body: data,
         headers: {
             "Accept": "application/json"
@@ -52,11 +71,14 @@ sections.forEach((section) => {
 // Typing Effect
 
 const text = "Computer Science Graduate | Front-End Web Developer";
+
 const typingElement = document.getElementById("typing");
 
 let index = 0;
 
 function typeText(){
+
+    if(!typingElement) return;
 
     if(index < text.length){
         typingElement.innerHTML += text.charAt(index);
