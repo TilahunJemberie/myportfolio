@@ -502,3 +502,15 @@ footer{
     border:3px solid #38bdf8;
     box-shadow:0 5px 15px #ccc;
 }
+.top-logo{
+    text-align:center;
+    padding:20px;
+}
+
+.logo{
+    width:80px;
+    height:80px;
+    object-fit:contain;
+    border-radius:50%;
+    border:3px solid #38bdf8;
+}
