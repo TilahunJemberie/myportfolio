@@ -490,3 +490,10 @@ footer{
     background:#15803d;
     transform:translateY(-5px);
 }
+.logo{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    border:2px solid #38bdf8;
+    object-fit:cover;
+}
