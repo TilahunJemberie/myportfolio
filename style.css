@@ -21,6 +21,8 @@ nav{
     text-align:center;
     position:sticky;
     top:0;
+    z-index:1000;
+backdrop-filter:blur(10px);
 }
 
 nav a{
@@ -154,10 +156,13 @@ footer{
     }
 
     .btn{
-        display:block;
-        width:70%;
-        margin:15px auto;
-    }
+    display:block;
+    width:70%;
+    margin:15px auto;
+}
+
+}
+   
 }
 .skill{
     margin:20px 0;
@@ -227,6 +232,16 @@ footer{
     animation: fadeIn 1.5s ease;
 }
 
+.hero img{
+    width:170px;
+    height:170px;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+.hero img:hover{
+    transform:scale(1.08) rotate(3deg);
+}
 .hero h1{
     animation: slideDown 1s ease;
 }
@@ -313,6 +328,9 @@ footer{
         width:100%;
     }
 
+}
+.container{
+    max-width:1200px;
 }
 /* Contact Form */
 
@@ -438,4 +456,11 @@ footer{
         margin:15px auto;
     }
 
+}
+.javascript{
+    width:80%;
+}
+
+.git{
+    width:80%;
 }
