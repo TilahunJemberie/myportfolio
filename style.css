@@ -478,3 +478,15 @@ footer{
 .social a:hover{
     transform:translateY(-8px) scale(1.05);
 }
+/* CV Button */
+
+.cv-btn{
+    background:#16a34a;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(22,163,74,0.3);
+}
+
+.cv-btn:hover{
+    background:#15803d;
+    transform:translateY(-5px);
+}
