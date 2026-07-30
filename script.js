@@ -7,11 +7,26 @@ function darkMode() {
 const form = document.querySelector(".contact-form");
 
 if (form) {
-    form.addEventListener("submit", function(e) {
-        e.preventDefault();
-        alert("Thank you! Your message has been received.");
-        form.reset();
+   form.addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const data = new FormData(form);
+
+    const response = await fetch(form.action, {
+        method: "POST",
+        body: data,
+        headers: {
+            "Accept": "application/json"
+        }
     });
+
+    if (response.ok) {
+        alert("✅ Message Sent Successfully!");
+        form.reset();
+    } else {
+        alert("❌ Message failed. Try again.");
+    }
+});
 }
 
 // Fade-in Animation
