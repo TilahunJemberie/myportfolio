@@ -167,17 +167,32 @@ Coming Soon
 <p><strong>Email:</strong> tilahun3274@gmail.com</p>
 <p><strong>Location:</strong> Ethiopia</p>
 
-<form class="contact-form">
+<form
+    class="contact-form"
+    action="https://formspree.io/f/xbdnbvbo"
+    method="POST">
 
-<input type="text" placeholder="Your Name" required>
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required>
 
-<input type="email" placeholder="Your Email" required>
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required>
 
-<textarea placeholder="Your Message" rows="5" required></textarea>
+    <textarea
+        name="message"
+        rows="5"
+        placeholder="Your Message"
+        required></textarea>
 
-<button type="submit" class="btn">
-Send Message
-</button>
+    <button type="submit" class="btn">
+        Send Message
+    </button>
 
 </form>
 
