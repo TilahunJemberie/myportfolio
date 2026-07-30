@@ -462,3 +462,7 @@ footer{
 .dark .bar{
     background:#475569;
 }
+#typing{
+    color:#2563eb;
+    min-height:40px;
+}

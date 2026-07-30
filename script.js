@@ -49,3 +49,21 @@ sections.forEach((section) => {
     section.style.transition = "all 0.8s ease";
     observer.observe(section);
 });
+// Typing Effect
+
+const text = "Computer Science Graduate | Front-End Web Developer";
+const typingElement = document.getElementById("typing");
+
+let index = 0;
+
+function typeText(){
+
+    if(index < text.length){
+        typingElement.innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeText, 80);
+    }
+
+}
+
+typeText();
