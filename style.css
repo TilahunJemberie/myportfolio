@@ -15,14 +15,14 @@ body{
 }
 
 /* Navigation */
-nav{
-    background:#1e293b;
+ nav{
+    background:rgba(30,41,59,0.9);
     padding:15px;
     text-align:center;
     position:sticky;
     top:0;
     z-index:1000;
-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
 }
 
 nav a{
@@ -41,12 +41,12 @@ nav a:hover{
 .container{
     background:white;
     width:80%;
+    max-width:1200px;
     margin:30px auto;
     padding:35px;
     border-radius:15px;
     box-shadow:0 5px 15px #ccc;
 }
-
 
 /* Profile */
 section:first-child{
@@ -68,10 +68,18 @@ h2{
 img{
     display:block;
     margin:20px auto;
+}
+
+.hero img{
     border-radius:50%;
     border:5px solid #2563eb;
 }
 
+.project-card img{
+    width:100%;
+    border-radius:10px;
+    border:none;
+}
 
 /* Skills */
 ul{
@@ -131,39 +139,6 @@ footer{
 
 
 /* Mobile */
-@media(max-width:600px){
-
-    nav a{
-        display:block;
-        margin:10px;
-    }
-
-    .container{
-        width:90%;
-        padding:20px;
-    }
-
-    h1{
-        font-size:28px;
-    }
-
-    h2{
-        font-size:22px;
-    }
-
-    img{
-        width:120px;
-    }
-
-    .btn{
-    display:block;
-    width:70%;
-    margin:15px auto;
-}
-
-}
-   
-}
 .skill{
     margin:20px 0;
 }
@@ -198,17 +173,9 @@ footer{
     width:90%;
 }
 
-.web{
-    width:80%;
-}
-.dark {
-    background: #0f172a;
-    color: white;
-}
-
-.dark .container {
-    background: #1e293b;
-    color: white;
+.dark{
+    background:#0f172a;
+    color:white;
 }
 
 .dark h1,
@@ -223,8 +190,10 @@ footer{
     background: #334155;
 }
 
-.dark .btn {
-    background: #38bdf8;
+.dark .btn{
+    background:#38bdf8;
+    color:#0f172a;
+}
 }
 .hero{
     text-align:center;
@@ -292,11 +261,7 @@ footer{
 .project-card:hover{
     transform:translateY(-10px);
     box-shadow:0 10px 25px #aaa;
-}
 
-.project-card img{
-    width:100%;
-    border-radius:10px;
 }
 
 .project-card h3{
@@ -328,9 +293,6 @@ footer{
         width:100%;
     }
 
-}
-.container{
-    max-width:1200px;
 }
 /* Contact Form */
 
@@ -463,4 +425,40 @@ footer{
 
 .git{
     width:80%;
+}
+@media (max-width:600px){
+
+    nav a{
+        display:block;
+        margin:10px;
+    }
+
+
+    .project-card,
+    .certificate-card{
+        width:100%;
+    }
+
+    .hero img{
+        width:120px;
+        height:120px;
+    }
+
+    .btn{
+        display:block;
+        width:80%;
+        margin:10px auto;
+    }
+}
+.dark .container{
+    background:#1e293b;
+    color:white;
+
+}
+.dark nav,
+.dark footer{
+    background:#020617;
+}
+.dark .bar{
+    background:#475569;
 }
