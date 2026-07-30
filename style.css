@@ -466,3 +466,15 @@ footer{
     color:#2563eb;
     min-height:40px;
 }
+.social a{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.social a:hover{
+    transform:translateY(-8px) scale(1.05);
+}
