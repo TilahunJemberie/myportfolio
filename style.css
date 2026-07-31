@@ -145,11 +145,16 @@ li{
 
 /* Footer */
 footer{
-
-padding:30px;
-
-font-size:17px;
-
+    background:#1e293b;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    font-size:16px;
+}
+.dark footer{
+    background:#020617;
+    color:#fff;
 }
 
 
