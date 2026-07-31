@@ -40,14 +40,12 @@ nav a:hover{
 /* Main container */
 .container{
     background:white;
-    width:80%;
-    max-width:1200px;
-    margin:30px auto;
-    padding:35px;
+    width:98%;
+    max-width:1600px;
+    margin:20px auto;
+    padding:25px;
     border-radius:15px;
-    box-shadow:0 5px 15px #ccc;
 }
-
 /* Profile */
 section:first-child{
     text-align:center;
@@ -493,16 +491,16 @@ footer{
 
 .top-logo{
     text-align:center;
+    padding:15px;
+}
+
+.logo{
+    width:70px;
     height:70px;
     object-fit:contain;
     border-radius:50%;
     border:3px solid #38bdf8;
     box-shadow:0 5px 15px #ccc;
-    padding:15px;
-}
- 
-.logo{
-    width:70px;
 }
 /* Scroll To Top */
 
@@ -526,4 +524,14 @@ footer{
 #topBtn:hover{
     background:#1d4ed8;
     transform:scale(1.1);
+}
+@media (max-width:600px){
+
+.container{
+    width:100%;
+    margin:0;
+    padding:15px;
+    border-radius:0;
+}
+
 }
