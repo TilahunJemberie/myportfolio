@@ -622,3 +622,13 @@ transform:rotate(360deg);
 .visitor-counter img{
     margin:auto;
 }
+.github-stats{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.github-stats img{
+    max-width:100%;
+}
