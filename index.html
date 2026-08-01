@@ -33,6 +33,7 @@
 <meta name="twitter:image" content="https://tilahunjemberie.github.io/myportfolio/images/TJ-logo.PNG">
 
 <link rel="icon" type="image/png" href="images/TJ-logo.PNG">
+<link rel="icon" href="favicon.ico">
  <link relel="stysheet" href="style.css">
 <script type="application/ld+json">
 {
@@ -55,9 +56,27 @@
   ]
 }
 </script>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CJ6YFGTR1T"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-CJ6YFGTR1T');
+</script>
+
 </head>
 
 <body>
+<div id="loader"></div>
 <header class="top-logo">
     <img src="./images/TJ-logo.PNG" class="logo" alt="TJ Logo">
 </header>
@@ -88,6 +107,9 @@ I build websites and software solutions.
 
 <a href="files/mycv.pdf" download class="btn cv-btn">
     📄 Download My CV
+</a>
+<a href="files/mycv.pdf" target="_blank" class="btn">
+    👀 View Resume
 </a>
 
 <a href="#contact" class="btn">
@@ -208,7 +230,28 @@ Coming Soon
 </div>
 
 
+</section> 
+<section id="github">
+
+<h2>GitHub Stats</h2>
+
+<img
+src="https://github-readme-stats.vercel.app/api?username=TilahunJemberie&show_icons=true&theme=default"
+alt="GitHub Stats">
+<img
+src="https://streak-stats.demolab.com?user=TilahunJemberie"
+alt="GitHub Streak">
+<br><br>
+
+<p align="center">
+<img 
+src="https://komarev.com/ghpvc/?username=TilahunJemberie&label=Visitors"
+alt="Visitors">
+</p>
+
+
 </section>
+
 <section id="contact">
 
 <h2>Contact Me</h2>
