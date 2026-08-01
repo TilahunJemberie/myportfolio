@@ -632,14 +632,3 @@ transform:rotate(360deg);
 .github-stats img{
     max-width:100%;
 }
-.github-stats{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.github-stats img{
-    max-width:100%;
-}
