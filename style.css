@@ -609,3 +609,8 @@ animation:spin 1s linear infinite;
 transform:rotate(360deg);
 }
 }
+#github img{
+    display:block;
+    margin:20px auto;
+    max-width:100%;
+}
