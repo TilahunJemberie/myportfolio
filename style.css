@@ -614,3 +614,11 @@ transform:rotate(360deg);
     margin:20px auto;
     max-width:100%;
 }
+.visitor-counter{
+    text-align:center;
+    margin:30px 0;
+}
+
+.visitor-counter img{
+    margin:auto;
+}
