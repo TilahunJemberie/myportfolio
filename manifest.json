@@ -1,21 +1,21 @@
 {
-"name":"Tilahun Jemberie Portfolio",
-"short_name":"Tilahun Portfolio",
-"start_url":"/myportfolio/",
-"display":"standalone",
-"background_color":"#ffffff",
-"theme_color":"#2563eb",
+  "name": "Tilahun Jemberie Portfolio",
+  "short_name": "Tilahun Portfolio",
+  "start_url": "/myportfolio/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
 
-"icons":[
-{
-"src":"images/icon-192.png",
-"sizes":"192x192",
-"type":"image/png"
-},
-{
-"src":"images/icon-512.png",
-"sizes":"512x512",
-"type":"image/png"
-}
-]
+  "icons": [
+    {
+      "src": "images/icon-192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "images/icon-512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
 }
