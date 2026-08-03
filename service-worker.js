@@ -6,8 +6,8 @@ const filesToCache = [
   "/myportfolio/style.css",
   "/myportfolio/script.js",
   "/myportfolio/manifest.json",
-  "/myportfolio/images/icon-192.jpg",
-  "/myportfolio/images/icon-512.jpg",
+  "/myportfolio/images/icon-192.PNG",
+  "/myportfolio/images/icon-512.PNG",
   "/myportfolio/images/TJ-logo.PNG"
 ];
 
