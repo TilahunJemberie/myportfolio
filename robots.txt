@@ -1,4 +1,6 @@
 User-agent: *
+
 Allow: /
 
-Sitemap: https://tilahunjemberie.github.io/myportfolio/sitemap.xml
+Sitemap:
+https://tilahunjemberie.github.io/myportfolio/sitemap.xml
