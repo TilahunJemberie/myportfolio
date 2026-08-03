@@ -130,3 +130,20 @@ function topFunction() {
 window.addEventListener("load", () => {
     document.getElementById("loader").style.display = "none";
 });
+if ("serviceWorker" in navigator) {
+
+window.addEventListener("load", () => {
+
+navigator.serviceWorker.register("service-worker.js")
+
+.then(() => {
+console.log("Service Worker Registered");
+})
+
+.catch(error => {
+console.log(error);
+});
+
+});
+
+}
