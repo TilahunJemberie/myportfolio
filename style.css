@@ -632,3 +632,53 @@ transform:rotate(360deg);
 .github-stats img{
     max-width:100%;
 }
+.menu-btn{
+
+display:none;
+background:#2563eb;
+color:white;
+border:none;
+font-size:28px;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+
+}
+
+
+/* Mobile Menu */
+
+@media(max-width:600px){
+
+
+.menu-btn{
+
+display:block;
+margin:10px auto;
+
+}
+
+
+nav{
+
+display:none;
+
+}
+
+
+nav.active{
+
+display:block;
+
+}
+
+
+nav a{
+
+display:block;
+padding:12px;
+
+}
+
+
+}
