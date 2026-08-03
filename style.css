@@ -682,3 +682,41 @@ padding:12px;
 
 
 }
+.project-buttons{
+
+display:flex;
+gap:10px;
+justify-content:center;
+flex-wrap:wrap;
+
+}
+
+
+.project-buttons .btn{
+
+width:auto;
+
+}
+
+
+.project-card p{
+
+margin-bottom:20px;
+line-height:1.7;
+
+}
+
+
+.project-card img{
+
+height:180px;
+object-fit:cover;
+
+}
+
+
+.project-card:hover img{
+
+transform:scale(1.05);
+
+}
