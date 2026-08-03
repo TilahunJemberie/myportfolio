@@ -2,7 +2,6 @@ const cacheName = "tilahun-portfolio-v1";
 
 const filesToCache = [
 "/myportfolio/",
-"/myportfolio/index.html",
 "/myportfolio/style.css",
 "/myportfolio/script.js",
 "/myportfolio/images/TJ-logo.PNG"
